@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "collator"
+version = "0.1.0"
+description = "Collator allows you to run your project with different hyperparameters and organize your results"
+authors = ["Rory Bedford <rorybedford@protonmail.com>"]
+license = "GPL3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
