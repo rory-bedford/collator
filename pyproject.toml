@@ -5,6 +5,7 @@ description = "Collator allows you to run your project with different hyperparam
 authors = ["Rory Bedford <rorybedford@protonmail.com>"]
 license = "GPL3"
 readme = "README.md"
+packages = [{ include = "collator", from = "src" }]
 
 [tool.poetry.dependencies]
 python = "^3.12"
@@ -13,3 +14,6 @@ python = "^3.12"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+collator = "collator.main:main"
